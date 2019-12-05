@@ -1,7 +1,6 @@
 #!/usr/bin/osascript
 
 set spotifyApp to "Spotify"
-set itunesApp to "iTunes"
 set musicApp to "Music"
 # set vlcApp to "VLC"
 
@@ -28,21 +27,7 @@ if application spotifyApp is running then
 	end tell
 end if
 
-# iTunes
-if application itunesApp is running then
-	tell application "iTunes"
-		set applicationName to itunesApp
-		if the player state is playing then
-      set state to "playing"
-      set trackname to "" & the name of current track
-      set artistname to "" & the artist of current track
-      set trackduration to the (duration of current track)
-      set playerposition to the player position
-    end
-	end tell
-end if
-
-# Music (macOS>=10.15)
+# Music 
 if application musicApp is running then
 	tell application "Music"
 		set applicationName to musicApp
@@ -55,7 +40,6 @@ if application musicApp is running then
     end
 	end tell
 end if
-
 
 
 log state

@@ -1,6 +1,6 @@
 {
   "name": "Current Track (Apple Music or Spotify)",
-  "description": "Displays the current track from Apple Music (iTunes), Spotify",
+  "description": "Displays the current track from Apple Music, Spotify",
   "author": "Krystof Rainisch",
   "email": "krystof@rainisch.net",
   "version": "0.1.0"
