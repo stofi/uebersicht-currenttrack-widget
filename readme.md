@@ -1,6 +1,6 @@
 # Current Track Widget
 Small widget for
-[Übersicht](http://tracesof.net/uebersicht/) displays information about a currently playing song and a progress bar.
+[Übersicht](http://tracesof.net/uebersicht/) that displays information about the currently playing song along with a progress bar.
 The widget uses AppleScript to communicate with both Apple Music and Spotify.
 
 ## Permissions
